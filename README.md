@@ -5,9 +5,9 @@
 <h1 align="center">Expo TypeScript</h1>
 <br>
 
-Using [Expo 47](https://blog.expo.dev/expo-sdk-47-a0f6f5c038af). 
+Using [Expo 47](https://blog.expo.dev/expo-sdk-47-a0f6f5c038af).
 
-Please read [Starting React Native Project in 2023](https://dev.to/vladimirvovk/starting-react-native-project-in-2023-2le) article for details. 
+Please read [Starting React Native Project in 2023](https://dev.to/vladimirvovk/starting-react-native-project-in-2023-2le) article for details.
 
 ## Quick start
 
@@ -41,3 +41,4 @@ Happy hacking! 🤓
 - `yarn web` - run on web.
 - `yarn lint` - check code for errors.
 - `yarn release` - generate a changelog, bump the version of app and create a new tag.
+- `yarn test` - generate the tests.

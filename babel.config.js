@@ -1,17 +1,20 @@
 module.exports = function (api) {
   api.cache(true)
-  return {
-    presets: ['babel-preset-expo'],
-    plugins: [
-      [
-        'module-resolver',
-        {
-          root: ['.'],
-          alias: {
-            src: './src'
-          }
+
+  const presets = ['babel-preset-expo', '@babel/preset-env']
+  const plugins = [
+    [
+      'module-resolver',
+      {
+        alias: {
+          '@': './src'
         }
-      ]
+      }
     ]
+  ]
+
+  return {
+    presets,
+    plugins
   }
 }

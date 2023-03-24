@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "src/*": ["src/*"]
+      "@/": ["src/"]
     },
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "resolveJsonModule": true
   },
   "extends": "expo/tsconfig.base"
 }
