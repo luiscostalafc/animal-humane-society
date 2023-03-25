@@ -1,9 +1,12 @@
 <p align="center">
-  An opinionated template that will allow you to start a new React Native project quickly with Expo, TypeScript, Prettier, ESLint, and some custom configurations that will make development process better. 💖
+  <img src="https://images.unsplash.com/photo-1575047676300-7e1911d451c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="cute dog" width="500"/>
 </p>
 
-<h1 align="center">Expo TypeScript</h1>
-<br>
+<h1 align="center">Animal Humane Society</h1>
+
+<p align="center">
+  An opinionated template that will allow you to start a new React Native project quickly with Expo, TypeScript, Prettier, ESLint, and some custom configurations that will make development process better. 💖
+</p>
 
 Using [Expo 47](https://blog.expo.dev/expo-sdk-47-a0f6f5c038af).
 
@@ -42,3 +45,5 @@ Happy hacking! 🤓
 - `yarn lint` - check code for errors.
 - `yarn release` - generate a changelog, bump the version of app and create a new tag.
 - `yarn test` - generate the tests.
+
+Note: This template is dedicated to all the dog lovers out there! 🐶
