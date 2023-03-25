@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://unsplash.com/photos/LB_S8Ny-IHs" alt="cute dog" width="500"/>
-</p>
-
-<h1 align="center">Animal Humane Society</h1>
+<h1 align="center">🐶Animal Humane Society🐶</h1>
 
 <p align="center">
   An opinionated template that will allow you to start a new React Native project quickly with Expo, TypeScript, Prettier, ESLint, and some custom configurations that will make development process better. 💖
