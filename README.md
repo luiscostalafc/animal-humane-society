@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1575047676300-7e1911d451c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="cute dog" width="500"/>
+  <img src="https://unsplash.com/photos/LB_S8Ny-IHs" alt="cute dog" width="500"/>
 </p>
 
 <h1 align="center">Animal Humane Society</h1>
