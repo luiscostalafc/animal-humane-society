@@ -1,5 +1,5 @@
 import React from 'react'
-import { FlatList } from 'react-native'
+import { FlatList, Text, View } from 'react-native'
 import { NavigationParams } from 'react-navigation'
 import { HeaderBackButton } from 'react-navigation-stack'
 
@@ -34,6 +34,16 @@ const LikedDogsScreen = ({ navigation }: NavigationParams) => {
           </ImageContainer>
         )}
       />
+      {!likedDogs?.length && (
+        <View
+          style={{
+            flex: 1,
+            alignItems: 'center'
+          }}
+        >
+          <Text>No liked dogs 😢</Text>
+        </View>
+      )}
     </Container>
   )
 }

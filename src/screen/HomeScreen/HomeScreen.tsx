@@ -105,7 +105,7 @@ const HomeScreen = ({ navigation }: NavigationParams) => {
             navigation.navigate('LikedDogs', { likedDogs, setLikedDogs, loadRandomDogImage })
           }
         >
-          <AntDesign name="heart" size={32} color="red" />
+          <AntDesign name="heart" size={32} color={likedDogs?.length ? 'red' : 'grey'} />
 
           <TextButton>See Liked Dogs</TextButton>
         </TouchableOpacity>
